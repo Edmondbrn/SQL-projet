@@ -29,12 +29,18 @@ Table Champs_Bio{
   Nom_champs varchar
 }
 
-Table Champs_traites {
+Table Champs_OGM {
   ID_champs_a_un_instant_T numeric  [primary key]
   Nom_cereale varchar    
   Nom_champs varchar
-  est_OGM bool
-  est_Pesticide bool
+  Nom_OGM varchar
+}
+
+Table Champs_Pesticide {
+  ID_champs_a_un_instant_T numeric  [primary key]
+  Nom_cereale varchar    
+  Nom_champs varchar
+  Nom_Pesticide varchar
 }
 
 Table Details_champs{
@@ -48,20 +54,20 @@ Table Alimentation_especes {
   Pourcentage_cereale_espece float
 }
 
-
-
 Ref: "Especes"."ID_espece" < "Sous_groupe_espece"."ID_espece"
 
 Ref: "Sous_groupe_espece"."ID_combinaison" < "Combinaison"."ID_combinaison"
 
 Ref: "Combinaison"."ID_combinaison" < "Champs_Bio"."ID_combinaison"
 
-Ref: "Combinaison"."ID_Champ_OGM" < "Champs_traites"."ID_champs_a_un_instant_T"
-
-Ref: "Combinaison"."ID_Champ_Pesticide" < "Champs_traites"."ID_champs_a_un_instant_T"
-
 Ref: "Champs_Bio"."ID_champs" < "Details_champs"."ID_champs_a_un_instant_T"
 
-Ref: "Champs_traites"."ID_champs_a_un_instant_T" < "Details_champs"."ID_champs_a_un_instant_T"
-
 Ref: "Especes"."ID_espece" < "Alimentation_especes"."ID_espece"
+
+Ref: "Combinaison"."ID_Champ_OGM" < "Champs_OGM"."ID_champs_a_un_instant_T"
+
+Ref: "Combinaison"."ID_Champ_Pesticide" < "Champs_Pesticide"."ID_champs_a_un_instant_T"
+
+Ref: "Champs_Pesticide"."ID_champs_a_un_instant_T" < "Details_champs"."ID_champs_a_un_instant_T"
+
+Ref: "Champs_OGM"."ID_champs_a_un_instant_T" < "Details_champs"."ID_champs_a_un_instant_T"
