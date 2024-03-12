@@ -1,0 +1,58 @@
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+
+
+Table Sous_groupe_espece {
+  Nom_espece varchar [primary key]
+  ID_combinaison numeric 
+  Cancer_ratio float
+}
+
+// Table pour pouvoir extraire facilement informations 
+// sur une combinaison pour 1 espèce
+
+Table Champs{
+  ID_combinaison numeric [pk]
+  ID_champs numeric 
+  Nom_cereale varchar
+  Nom_champs varchar
+}
+
+Table Champs_OGM {
+  ID_champs_OGM_a_un_instant_T numeric  [primary key]
+
+  Nom_OGM varchar
+}
+
+Table Champs_Pesticide {
+  ID_champs_pesticide_a_un_instant_T numeric  [primary key]
+  Nom_Pesticide varchar
+}
+
+Table Details_champs{
+  ID_champs_a_un_instant_T numeric  [primary key]
+  Date_exploitation Date
+}
+
+Table Alimentation_especes {
+  Nom_espece varchar  [pk]
+  Nom_cereale varchar 
+  Pourcentage_cereale_espece float
+}
+
+
+
+Ref: "Sous_groupe_espece"."Nom_espece" < "Alimentation_especes"."Nom_espece"
+
+Ref: "Sous_groupe_espece"."ID_combinaison" < "Champs"."ID_combinaison"
+
+
+
+Ref: "Champs"."ID_champs" < "Champs_OGM"."ID_champs_OGM_a_un_instant_T"
+
+Ref: "Champs"."ID_champs" < "Champs_Pesticide"."ID_champs_pesticide_a_un_instant_T"
+
+Ref: "Champs_OGM"."ID_champs_OGM_a_un_instant_T" < "Details_champs"."ID_champs_a_un_instant_T"
+
+Ref: "Champs_Pesticide"."ID_champs_pesticide_a_un_instant_T" < "Details_champs"."ID_champs_a_un_instant_T"
