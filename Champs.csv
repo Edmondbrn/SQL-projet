@@ -1,73 +1,73 @@
-0,0,Blé,Burnevillers,12/01/2023
-0,1,Orge,Brenon,12/01/2023
-0,2,Maïs,Cantaleux,12/01/2023
-1,0,Blé,Burnevillers,12/01/2023
-1,3,Orge,Gincrey,12/01/2023
-1,4,Maïs,Maizeray,12/01/2023
-2,5,Blé,Pres,12/01/2023
-2,1,Orge,Brenon,12/01/2023
-2,2,Maïs,Cantaleux,12/01/2023
-3,6,Sarrasin,Tudelle,12/01/2023
-3,7,Orge,Valouse,12/01/2023
-4,8,Sarrasin,Geraise,12/01/2023
-4,7,Orge,Valouse,12/01/2023
-5,9,Sarrasin,Dessia,12/01/2023
-5,10,Orge,Saint Loup,12/01/2023
-6,11,Maïs,Châteaufort,28/02/2019
-6,12,Soja,Fraroz,28/02/2019
-7,11,Maïs,Oches,28/02/2019
-7,13,Soja,Magny Châtelard,28/02/2019
-8,14,Avoine,Vesvres,09/04/2020
-8,15,Soja,Burnevillers,09/04/2020
-8,16,Blé,Brenon,09/04/2020
-9,17,Maïs,Cantaleux,09/04/2020
-9,18,Orge,Gincrey,09/04/2020
+0,0,Blé,Burnevillers,01/12/2023
+0,1,Orge,Brenon,01/12/2023
+0,2,Maïs,Cantaleux,01/12/2023
+1,0,Blé,Burnevillers,01/12/2023
+1,3,Orge,Gincrey,01/12/2023
+1,4,Maïs,Maizeray,01/12/2023
+2,5,Blé,Pres,01/12/2023
+2,1,Orge,Brenon,01/12/2023
+2,2,Maïs,Cantaleux,01/12/2023
+3,6,Sarrasin,Tudelle,01/12/2023
+3,7,Orge,Valouse,01/12/2023
+4,8,Sarrasin,Geraise,01/12/2023
+4,7,Orge,Valouse,01/12/2023
+5,9,Sarrasin,Dessia,01/12/2023
+5,10,Orge,Saint Loup,01/12/2023
+6,11,Maïs,Châteaufort,02/28/2019
+6,12,Soja,Fraroz,02/28/2019
+7,11,Maïs,Oches,02/28/2019
+7,13,Soja,Magny Châtelard,02/28/2019
+8,14,Avoine,Vesvres,04/09/2020
+8,15,Soja,Burnevillers,04/09/2020
+8,16,Blé,Brenon,04/09/2020
+9,17,Maïs,Cantaleux,04/09/2020
+9,18,Orge,Gincrey,04/09/2020
 10,19,Maïs,Maizeray,04/10/2023
 10,20,Orge,Pres,04/10/2023
-11,21,Maïs,Valouse,04/10/2023
-11,20,Orge,Pres,04/10/2023
-12,22,Avoine,Dessia,16/11/2022
-12,23,Blé,Saint Loup,16/11/2022
-13,22,Avoine,Dessia,16/11/2022
-13,24,Blé,Fraroz,16/11/2022
-14,25,Blé,Burnevillers,16/11/2022
-15,26,Blé,Châteaufort,16/11/2022
-16,27,Blé,Magny Châtelard,16/11/2022
-17,28,Sarrasin,Cantaleux,21/01/2020
-17,29,Avoine,Gincrey,21/01/2020
-18,30,Blé,Maizeray,23/12/2023
-18,31,Orge,Vesvres,23/12/2023
-18,32,Soja,Brenon,23/12/2023
-18,33,Maïs,Saint Loup,23/12/2023
-19,30,Blé,Maizeray,23/12/2023
-19,31,Orge,Vesvres,23/12/2023
-19,34,Soja,Oches,23/12/2023
-19,35,Maïs,Fraroz,23/12/2023
-20,36,Blé,Geraise,23/12/2023
-20,37,Orge,Tudelle,23/12/2023
-20,32,Soja,Brenon,23/12/2023
-20,33,Maïs,Saint Loup,23/12/2023
-21,38,Blé,Burnevillers,14/10/2020
-21,39,Avoine,Brenon,14/10/2020
-22,40,Orge,Maizeray,26/05/2027
-22,41,Avoine,Pres,26/05/2027
-22,42,Blé,Valouse,26/05/2027
-23,43,Orge,Magny Châtelard,26/05/2027
-23,41,Avoine,Pres,26/05/2027
-23,42,Blé,Valouse,26/05/2027
-24,40,Orge,Maizeray,26/05/2027
-24,44,Avoine,Brenon,26/05/2027
-24,45,Blé,Cantaleux,26/05/2027
-25,46,Blé,Gincrey,26/05/2027
-25,47,Maïs,Maizeray,26/05/2027
-26,46,Blé,Gincrey,26/05/2027
-26,48,Maïs,Saint Loup,01/09/27
-27,49,Soja,Gincrey,01/09/27
-27,50,Maïs,Dessia,01/09/27
-28,49,Soja,Gincrey,01/09/27
-28,51,Maïs,Fraroz,01/09/27
-29,52,Avoine,Pres,01/09/27
-30,53,Blé,Brenon,01/09/27
-30,54,Orge,Cantaleux,01/09/27
-31,53,Blé,Brenon,01/09/27
-31,55,Orge,Brenon,08/12/26
+11,21,Maïs,Valouse,10/04/2023
+11,20,Orge,Pres,10/04/2023
+12,22,Avoine,Dessia,11/16/2022
+12,23,Blé,Saint Loup,11/16/2022
+13,22,Avoine,Dessia,11/16/2022
+13,24,Blé,Fraroz,11/16/2022
+14,25,Blé,Burnevillers,11/16/2022
+15,26,Blé,Châteaufort,11/16/2022
+16,27,Blé,Magny Châtelard,11/16/2022
+17,28,Sarrasin,Cantaleux,01/21/2020
+17,29,Avoine,Gincrey,01/21/2020
+18,30,Blé,Maizeray,12/23/2023
+18,31,Orge,Vesvres,12/23/2023
+18,32,Soja,Brenon,12/23/2023
+18,33,Maïs,Saint Loup,12/23/2023
+19,30,Blé,Maizeray,12/23/2023
+19,31,Orge,Vesvres,12/23/2023
+19,34,Soja,Oches,12/23/2023
+19,35,Maïs,Fraroz,12/23/2023
+20,36,Blé,Geraise,12/23/2023
+20,37,Orge,Tudelle,12/23/2023
+20,32,Soja,Brenon,12/23/2023
+20,33,Maïs,Saint Loup,12/23/2023
+21,38,Blé,Burnevillers,10/14/2020
+21,39,Avoine,Brenon,10/14/2020
+22,40,Orge,Maizeray,05/26/2027
+22,41,Avoine,Pres,05/26/2027
+22,42,Blé,Valouse,05/26/2027
+23,43,Orge,Magny Châtelard,05/26/2027
+23,41,Avoine,Pres,05/26/2027
+23,42,Blé,Valouse,05/26/2027
+24,40,Orge,Maizeray,05/26/2027
+24,44,Avoine,Brenon,05/26/2027
+24,45,Blé,Cantaleux,05/26/2027
+25,46,Blé,Gincrey,05/26/2027
+25,47,Maïs,Maizeray,05/26/2027
+26,46,Blé,Gincrey,05/26/2027
+26,48,Maïs,Saint Loup,09/01/27
+27,49,Soja,Gincrey,09/01/27
+27,50,Maïs,Dessia,09/01/27
+28,49,Soja,Gincrey,09/01/27
+28,51,Maïs,Fraroz,09/01/27
+29,52,Avoine,Pres,09/01/27
+30,53,Blé,Brenon,09/01/27
+30,54,Orge,Cantaleux,09/01/27
+31,53,Blé,Brenon,09/01/27
+31,55,Orge,Brenon,12/08/26
